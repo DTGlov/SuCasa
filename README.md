@@ -1,2 +1,2 @@
-# sucasa
-Fullstack real estate marketplace  created with React and GraphQL Apollo Server
+# SuCasa
+SuCasa is a fullstack real estate marketplace created with React JS, Express JS and MongoDB.This project utilizes GraphQL to query the database on the Backend. The database schema includes Locations and Apartments which exists in a one to one relationship. Locations and Apartments can be queried, updated and deleted with  queries and mutations defined in the schema.js file. Apollo client is used in the frontend to retrieve the models from MongoDB and rendered on the frontend. This project can be extended to include an admin dashboard where new apartments and locations can be added,updated or deleted since the logic for that has already been implemented on the backend.
